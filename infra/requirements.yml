@@ -1,0 +1,5 @@
+---
+
+- src: git+https://github.com/possemeeg/ansible-role-possemeeg.mysql.git
+  version: master
+  name: possemeeg.mysql

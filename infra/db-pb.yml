@@ -1,0 +1,15 @@
+---
+- hosts: database
+  vars:
+      database:
+          name: testdb
+          user:
+              app:
+                  name: app
+                  password: pass
+              admin:
+                  name: admin
+                  password: pass
+  roles:
+    - role: possemeeg.mysql
+      become: yes
